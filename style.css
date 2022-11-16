@@ -1,0 +1,127 @@
+.s1, col-md-8{
+    background-color: #FFB9F3;
+   }
+   
+   .s2 {
+       background-color: #FFDEF7;
+   }
+   
+   .s3 {
+       background-color: #FFCAF6;
+   }
+   
+   .s4 {
+       background-color: #FFBAE1;
+   }
+   h3 {
+    width: 110px;;
+    height: auto;
+    text-align: center;
+    font-size: 120%;
+    font-family: Lobster;
+   }
+   .s1 h3  {
+       background-color: #DACC5F;
+       color: darkred;
+   }
+   .s2 h3 {
+       background-color: #D4C648;
+       color: darkred;
+   }
+   .s3 h3  {
+       background-color: #DEE35D;
+       color: darkred;
+   }
+   .s4 h3  {
+       background-color: #CED846;
+       color: darkred;
+   }
+   .s1 p {
+       color: #6C4308;
+       font-size: 100%;
+       font-family:Cormorant;
+   }
+   .s2 div {
+       color: #5F210C;
+       font-family: Cormorant;
+   }
+   .s3 th{
+       color: #5C2013;
+       font-family: Cormorant;
+   }
+   .s3 td{
+       color: #592815;
+       font-family: Cormorant;
+   }
+   h1 {
+      font-family:Playfair Display;
+   }
+   h2 {
+       font-family:Playfair Display;
+   }
+   table, th, td {
+       border: 1px solid black;
+       text-align: center;
+     }
+
+     
+
+.row {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+
+    .flex-container {
+        flex-flow: row wrap;
+    }
+
+    .s1,
+    .s2,
+    .s3,
+    .s4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+
+    .flex-container {
+        flex-flow: row wrap;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        width: 33%;
+    }
+
+    .s4 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    .flex-container {
+        flex-flow: row wrap;
+    }
+
+    .s1,
+    .s2,
+    .s3,
+    .s4 {
+        width: 25%;
+    }
+
+}
